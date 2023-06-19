@@ -1,0 +1,169 @@
+.images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15%;
+    
+    
+  }
+  
+  .images img {
+    border: 2px solid #2b8a3e;
+   
+  }
+
+
+  #icons{
+    color: #2b8a3e;
+
+  }
+
+  .imagess{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 15%;
+    margin-top: 5%;
+  }
+
+  .imagess img{
+    border: 2px solid #2b8a3e;
+
+  }
+
+
+  .image{
+    max-width: 180px;
+    border-radius: 50%;
+   
+  }
+
+  #lilian{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    
+  }
+
+  #ivvy{
+    width: 250px;
+    height: 250px;
+    margin-left: 40%;
+    border-radius: 50%;
+
+  }
+
+  #lynnn{
+    width: 250px;
+    height: 250px;
+    margin-left: 80%;
+    border-radius: 50%;
+
+    
+  }
+
+  #milkah{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-left: -20%;
+
+  }
+
+  #maureen{
+    width: 250px;
+    height: 250px;
+    margin-left: 25%;
+    border-radius: 50%;
+
+}
+
+#idaya{
+  width: 250px;
+    height: 250px;
+    margin-left: 75%;
+    border-radius: 50%;
+
+}
+
+#h{
+  font-size:60px;
+  margin-left: 20%;
+  color: #2b8a3e;
+}
+
+.p{
+    margin-left: 35%;
+}
+
+.p1{
+    margin-left: 55%;
+}
+.p2{
+    margin-left: 105%;
+}
+.p3{
+    margin-left: -20%;
+}
+
+.p4{
+  margin-left: 110%;
+}
+
+  #text{
+    margin-top: -2%;
+    margin-left:10%;
+  }
+
+  .texts{
+    margin-left: 20%;
+  }
+
+  .bs{
+    margin-left: 10%;
+  }
+
+
+  .footer{
+    display: flex;
+    gap: 20%;
+    margin-top: 4%;
+    background-color:grey;
+    color:black;
+  }
+
+
+  @media only screen and (max-width: 768px) {
+    .body {
+    height: auto;
+    }
+    .images, .imagess {
+    flex-direction: column;
+    margin-right: 0;
+    margin-top: 10%;
+    }
+    #lilian, #ivvy, #lynnn, #milkah, #maureen, #idaya {
+    width: 150px;
+    height: 150px;
+    margin: 0 auto;
+    }
+    .p, .p1, .p2, .p3, .p4 {
+    margin-left: 0;
+    text-align: center;
+    }
+    #h {
+    font-size: 40px;
+    margin-left: 0;
+    text-align: center;
+    }
+    .bs {
+    margin-left: 0;
+    text-align: center;
+    }
+    .footer {
+    flex-direction: column;
+    gap: 10%;
+    text-align: center;
+    }
+    }
+
